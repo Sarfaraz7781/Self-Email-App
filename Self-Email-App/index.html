@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S-email</title>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body>
+
+  <!-- © 2025 Sarfaraz. All rights reserved. -->
+
+  <div class="container">
+    <h3>Send Email</h3>
+    <!-- <input type="text" id="userName" placeholder="Your name"> -->
+    <input type="email" id="userEmail" placeholder="Recipient email">
+    <textarea id="message" rows="4" placeholder="Enter your message"></textarea>
+    <button id="sendBtn" onclick="sendMail()">
+      <span id="btnText">Send</span>
+      <div class="spinner" id="btnSpinner"></div>
+    </button>
+  </div>
+
+  <!-- Popup -->
+  <div class="popup" id="popup"></div>
+
+  <!-- Footer copyright -->
+  <div class="footer">
+    &copy; 2025 Sarfaraz. All rights reserved.
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
