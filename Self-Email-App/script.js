@@ -31,7 +31,7 @@ function sendMail() {
         from_email: "talk.mdsalam@gmail.com"
     };
 
-    emailjs.send("service_0wu7vrf", "template_e2ftqeb", params)
+    emailjs.send("service_3zs2yc8", "template_1v9w2wj", params)
         .then(function (response) {
             btnText.textContent = "Send";
             btnSpinner.style.display = "none";
@@ -54,4 +54,5 @@ function sendMail() {
             sendMail(); // trigger send
         }
     });
+
 }
